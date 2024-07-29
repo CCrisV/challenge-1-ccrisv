@@ -1,0 +1,87 @@
+/* Fuentes utilizadas para el proyecto*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+/* Variables*/
+
+:root{ /* declarar variables (Las variables se declaran utilizando --)*/
+    --color-fondo: #2C3333; /* Fondo */
+    --color-secundario: #E7F6F2;
+    --color-terciario: #395B64;
+    --color-cuarto: #A5C9CA;
+    --color-hover: #272727;
+
+    --fuente-bebas:"Bebas Neue", sans-serif;
+    --fuente-playwrite:"Playwrite DK Loopet", sans-serif;
+    --fuente-inter:"Inter", sans-serif;
+}
+
+* { /* "*" se utiliza para hacer un cambio universal */
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    background-color: var(--color-fondo);
+    box-sizing: border-box; 
+}
+
+.header{
+    display: flex;
+    padding: 1% 5% 1% 5%;
+    gap: 1rem;
+    align-items: center;
+
+    /*Borrar
+    border-width:1px;
+    border-style: solid;
+    border-color:blue;
+    width:50%;
+    */
+}
+.header_titulo{
+    color: var(--color-secundario);
+    font-family: var(--fuente-playwrite);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.header_logo{
+    width: 2rem;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 1% 5% 1% 5% ;
+    /*margin: 5% 10%;*/
+    gap: 10%;
+    justify-content:space-evenly;
+}
+
+.Entrada_txt{
+    width: 45%;
+    height: 45%;
+    color: #E7F6F2;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border-color: #395B64;
+    background-color: #272727;
+}
+.header_logo2{
+    width: 1.5rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-cuarto);
+    font-family: var(--fuente-bebas);
+    font-size: 1.5rem;
+    font-weight: 400px;
+    padding: 1%;
+    justify-content: center;
+    background-color: var(--color-terciario);
+}
