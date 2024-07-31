@@ -76,7 +76,7 @@ body{
 .footer{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    flex-direction: column;
     color: var(--color-cuarto);
     font-family: var(--fuente-bebas);
     font-size: 1.5rem;
@@ -84,4 +84,8 @@ body{
     padding: 1%;
     justify-content: center;
     background-color: var(--color-terciario);
+}
+.footer_titulo{
+    display: flex;
+    gap: 0.7rem; 
 }
