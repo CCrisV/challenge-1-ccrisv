@@ -88,4 +88,5 @@ body{
 .footer_titulo{
     display: flex;
     gap: 0.7rem; 
+    /* com */
 }
