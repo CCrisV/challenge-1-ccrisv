@@ -13,8 +13,26 @@
         <p class="header_titulo">Challenge 1 Encriptador</p>
     </header>
     <main class="main">
-        <input class="Entrada_txt">
-        <input class="Entrada_txt">
+        <section class="main_sectionleft">
+            <textarea class="main_entrada" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="main_section_div">
+                <img src="assets/Vector.png" alt="Alerta" class="main_section_div_imgadv">
+                <p class="main_section_div_aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="main_section_divbotones">
+                <button  class="main_section_divbotones_btnencriptar">Encriptar</button>
+                <button  class="main_section_divbotones_btndesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="main_sectionright">
+            <div class="main_sectionright_contenedor"> 
+                <img src="assets/Muñeco.png" alt="Muñeco" class="main_sectionright_contenedor_muñeco">
+                <div class="main_sectionright_contenedor_textos">
+                    <p class="main_sectionright_contenedor_texto1">Ningún mensaje fue encontrado</p> 
+                    <p class="main_sectionright_contenedor_texto2">Ingresa el texto que desees encriptar o desencriptar</p> 
+                </div>  
+            </div>
+        </section>     
     </main>
     <footer class="footer">
         <div class="footer_titulo">
@@ -22,7 +40,10 @@
             <img class="header_logo2" src="assets/Logo-CV.png" alt="Logo programador">
         </div>
         <div>
-            <img class="footer_vinculos" src="assets/logogit.png" alt="Logo programador">
+            <a class="Link_Git" href="https://github.com/CCrisV">
+                <img class="footer_vinculos" src="assets/logogit.png" alt="Logo programador">
+            </a>
+            
         </div>
     </footer> 
 </body>
