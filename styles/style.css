@@ -200,10 +200,12 @@ body{
     padding: 20px;
     font-family: var(--fuente-inter);
     font-weight: 400;
+    font-size: 24px;
     line-height: 36px;
     color: var(--color-fondo);
     border-top-right-radius: 32px;
     border-top-left-radius: 32px;
+    border-color: var(--color-secundario);
     border: none;
     resize: none;
     background: none;
